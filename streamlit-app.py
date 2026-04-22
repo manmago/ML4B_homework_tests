@@ -9,8 +9,6 @@ st.header("Lecture 2 task")
 st.write("A simple streamlit app with data from SensorLogger app and interactive element.")
 st.write("Downsampling rate set to: " + str(DOWNSAMPLE))
 
-df = pd.read_csv("../data/Accelerometer.csv")
-
 sensor_options = {
     "Accelerometer": "./data/Accelerometer.csv",
     "Gyroscope": "./data/Gyroscope.csv",
